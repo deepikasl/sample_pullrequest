@@ -1,0 +1,36 @@
+language: node_js
+
+# Version number
+node_js:
+  - 0.12
+
+build:
+  ci:
+    - node --version
+    
+integrations:
+  notifications:  
+    - integrationName: email
+      type: email
+      recipients: 
+        - shiptest.rc.me@gmail.com
+        - shiptest.rc.ow@gmail.com
+      
+    - integrationName: slack
+      type: slack
+      recipients:
+        - "#public-chnl"
+        - pvt-channel
+      
+    - integrationName: irc
+      type: irc
+      recipients:
+        - "chat.freenode.net#test1"
+      
+    - integrationName: hipchat
+      type: hipchat
+      recipients:
+        - '#hitchcock1'
+        - '#hitchcock1pvt'
+        - '@shiphitchcock1'
+    
