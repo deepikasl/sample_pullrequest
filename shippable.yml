@@ -30,7 +30,7 @@ integrations:
     - integrationName: hipchat
       type: hipchat
       recipients:
-        - '#hitchcock1'
-        - '#hitchcock1pvt'
-        - '@shiphitchcock1'
+        - '#shiptestpub'
+        - '#shiptestpvt'
+        - '@shiptest'
     
