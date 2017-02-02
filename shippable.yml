@@ -11,7 +11,7 @@ branches:
   only:
     - pr
   except:
-    - master #this wont trigger PR build for master. In order to branch to branch creating pr1 that we can send PR to "pr" branch
+    - master 
     
 integrations:
   notifications:  
