@@ -20,6 +20,10 @@ integrations:
       recipients: 
         - shiptest.rc.me@gmail.com
         - shiptest.rc.ow@gmail.com
+      on_pullrequest: always
+      on_success: always
+      on_failure: always
+      on_start: always
       
     - integrationName: slack
       type: slack
